@@ -5,18 +5,13 @@
 </template>
 <script>
 import MainFrame from '@/components/MainFrame.vue'
-import Carousel from '@/components/HomeCarousel.vue'
+import Carousel from '@/components/Carousel.vue'
 export default {
     name: 'Home',
     components: {
         MainFrame,
         Carousel
     },
-    methods: {
-        changeslide(event){
-            console.log(event.target);
-        }
-    }
 }
 </script>
 

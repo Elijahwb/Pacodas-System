@@ -30,7 +30,16 @@
     </div>
 </template>
 
+<script>
+export default {
+    name: 'HomeCarousel'
+}
+</script>
+
 <style scoped>
+.hide {
+    z-index: -1;
+}
 .slide-container {
     position: relative;
     height: Calc(100vh - 84.94px);
