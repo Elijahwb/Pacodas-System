@@ -36,8 +36,7 @@ export default {
                             background-color: rgba(0, 0, 0, 0.1);
                             -webkit-backdrop-filter: blur(10px);
                             backdrop-filter: blur(10px);">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam porro placeat aliquam voluptates exercitationem, 
-                            laboriosam debitis repellat sit qui explicabo! Non id aperiam, quo vero nemo facilis. Aliquid, doloribus assumenda!
+                            A hundred orphans may be many to help, so you can start with one. One by one makes a bundle but it starts with you
                         </p>
                     </div>
                 `,
@@ -53,8 +52,7 @@ export default {
                             background-color: rgba(0, 0, 0, 0.1);
                             -webkit-backdrop-filter: blur(10px);
                             backdrop-filter: blur(10px);">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam porro placeat aliquam voluptates exercitationem, 
-                            laboriosam debitis repellat sit qui explicabo! Non id aperiam, quo vero nemo facilis. Aliquid, doloribus assumenda!
+                            We can not help everyone, but everyone can help someone
                         </p>
                     </div>
                 `,
@@ -70,8 +68,7 @@ export default {
                             background-color: rgba(0, 0, 0, 0.1);
                             -webkit-backdrop-filter: blur(10px);
                             backdrop-filter: blur(10px);">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam porro placeat aliquam voluptates exercitationem, 
-                            laboriosam debitis repellat sit qui explicabo! Non id aperiam, quo vero nemo facilis. Aliquid, doloribus assumenda!
+                            A hundred orphans may be many to help, so you can start with one. One by one makes a bundle but it starts with you
                         </p>
                     </div>
                 `,

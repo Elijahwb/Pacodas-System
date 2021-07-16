@@ -64,8 +64,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #eb9004;
-    border: 1.5px solid #eb9004;
+    background: rgb(248, 74, 26);
+    border: 1.5px solid rgb(248, 74, 26);
     padding: 5px 20px;
     border-radius: 12px;
     color: #fff;
@@ -74,6 +74,6 @@ header {
 }
 .donate-btn:hover {
     background: #fff;
-    color: #eb9004;
+    color: #fc8f08;
 }
 </style>

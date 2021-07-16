@@ -1,6 +1,8 @@
 <template>
     <MainFrame>
-        <Carousel/>
+        <div style="height: 100vh; width: 100%; overflow-x: hidden">
+            <Carousel/>
+        </div>
     </MainFrame>
 </template>
 <script>
