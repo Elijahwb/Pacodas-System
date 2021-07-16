@@ -8,22 +8,26 @@
             </div>
             <div class="form-item">
                 <label for="">Last name</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required>
             </div>
         </div>
         
         <div class="email-section">
             <label for="">Email</label>
-            <input type="email" class="form-control">
+            <input type="email" class="form-control" placeholder="example@domain.com" required>
         </div>
 
         <div class="email-section">
             <label for="">Message</label>
-            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter your message here" required></textarea>
         </div>
 
         <div class="submit">
-            <input type="submit" @click="onSubmit" class="form-control" value="Send message">
+            <button type="submit" @click="onSubmit" class="form-control">
+              <span>Send message</span>
+              &nbsp;
+            <font-awesome-icon :icon="['fas', 'paper-plane']" :style="{ color: '#FFF', fontSize: '12px', }"/>
+            </button>
         </div>
     </form>
   </div>
@@ -78,7 +82,7 @@ textarea {
     width: 100%;
     resize: none;
 }
-.submit input {
+.submit button {
     width: 100%;
     font-size: 13.5px;
     font-weight: 500;

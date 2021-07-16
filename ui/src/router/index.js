@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Whatwedo from '../views/Whatwedo.vue'
 import Services from '../views/Services.vue'
+import Events from '../views/Events.vue'
 import Contactus from '../views/Contactus.vue'
 import Donate from '../views/Donate.vue'
 
@@ -21,6 +22,11 @@ const routes = [
         path: '/services',
         name: 'services',
         component: Services
+    },
+    {
+        path: '/events',
+        name: 'events',
+        component: Events
     },
     {
         path: '/about-us',

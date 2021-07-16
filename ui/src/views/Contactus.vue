@@ -8,9 +8,43 @@
                         <br/>in Pacodasug!
                     </p>
                     <p>Want to know more about Pacodasug organisation and ways of extending your help to those who need it?</p>
-                    <p>
-                        Submit this form and our team will contact you soon.
-                    </p>
+                    <div class="contact-details">
+                        <div class="detail">
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <span>Makyindye Kampala, Uganda</span>
+                        </div>
+                        <div class="detail">
+                            <font-awesome-icon :icon="['fas', 'address-card']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <span>P.O. BOX 24477, Kampala Uganda</span>
+                        </div>
+                        <div class="detail">
+                            <font-awesome-icon :icon="['fas', 'mobile']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <span>+256 782 963 643 / +256 706 714 774</span>
+                        </div>
+                        <div class="detail">
+                            <font-awesome-icon :icon="['fas', 'envelope']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <span>info@pacodasug.org</span>
+                        </div>
+                        <div class="details">
+                            <div class="socials">
+                                <p>Social Presence</p>
+                                <div class="platforms">
+                                    <a target="_blank" href="#" class="social">
+                                        <font-awesome-icon :icon="['fab', 'facebook']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                    </a>
+                                    <a target="_blank" href="#" class="social">
+                                        <font-awesome-icon :icon="['fab', 'instagram']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                    </a>
+                                    <a target="_blank" href="#" class="social">
+                                        <font-awesome-icon :icon="['fab', 'twitter']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                    </a>
+                                    <a target="_blank" href="#" class="social">
+                                        <font-awesome-icon :icon="['fab', 'whatsapp']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col">
                     <ContactForm/>
@@ -33,6 +67,35 @@ export default {
 </script>
 
 <style scoped>
+.platforms {
+    display: flex;
+    justify-content: space-between;
+}
+.socials p {
+    width: 100%;
+    font-weight: bold;
+    border-top: 1px solid black;
+    margin-bottom: 1px;
+}
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.detail span {
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items:center;
+    margin-left: 10px;
+}
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 .container {
     height: Calc(100vh - 84.94px);
 }

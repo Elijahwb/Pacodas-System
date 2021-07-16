@@ -16,6 +16,9 @@
                 <router-link to="services"><span>SERVICES</span></router-link>
             </li>
             <li class="nav-link">
+                <router-link to="events"><span>EVENTS</span></router-link>
+            </li>
+            <li class="nav-link">
                 <router-link to="about-us"><span>ABOUT US</span></router-link>
             </li>
             <li class="nav-link">
@@ -51,8 +54,10 @@ header {
 }
 .nav-link a:hover {
     opacity: .8;
+    text-shadow: 0.1px 0.5px 10px rgb(248, 74, 26) !important;
 }
 .router-link-exact-active {
+    text-shadow: 0.1px 0.5px 10px rgba(248, 74, 26, 0.541) !important;
     color: #282c35 !important;
     font-weight: 500 !important;
 }

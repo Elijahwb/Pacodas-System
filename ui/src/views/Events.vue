@@ -1,19 +1,16 @@
 <template>
     <MainFrame>
-        <div>
-            <Carousel/>
-        </div>
+        
     </MainFrame>
 </template>
 <script>
 import MainFrame from '@/components/MainFrame.vue'
-import Carousel from '@/components/Carousel.vue'
+
 export default {
-    name: 'Home',
+    name: 'Events',
     components: {
         MainFrame,
-        Carousel
-    },
+    }
 }
 </script>
 
