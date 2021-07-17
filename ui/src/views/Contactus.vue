@@ -10,19 +10,19 @@
                     <p>Want to know more about Pacodasug organisation and ways of extending your help to those who need it?</p>
                     <div class="contact-details">
                         <div class="detail">
-                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                             <span>Makyindye Kampala, Uganda</span>
                         </div>
                         <div class="detail">
-                            <font-awesome-icon :icon="['fas', 'address-card']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <font-awesome-icon :icon="['fas', 'address-card']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                             <span>P.O. BOX 24477, Kampala Uganda</span>
                         </div>
                         <div class="detail">
-                            <font-awesome-icon :icon="['fas', 'mobile']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <font-awesome-icon :icon="['fas', 'mobile']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                             <span>+256 782 963 643 / +256 706 714 774</span>
                         </div>
                         <div class="detail">
-                            <font-awesome-icon :icon="['fas', 'envelope']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                            <font-awesome-icon :icon="['fas', 'envelope']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                             <span>info@pacodasug.org</span>
                         </div>
                         <div class="details">
@@ -30,16 +30,16 @@
                                 <p>Social Presence</p>
                                 <div class="platforms">
                                     <a target="_blank" href="#" class="social">
-                                        <font-awesome-icon :icon="['fab', 'facebook']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                        <font-awesome-icon :icon="['fab', 'facebook']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                                     </a>
                                     <a target="_blank" href="#" class="social">
-                                        <font-awesome-icon :icon="['fab', 'instagram']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                        <font-awesome-icon :icon="['fab', 'instagram']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                                     </a>
                                     <a target="_blank" href="#" class="social">
-                                        <font-awesome-icon :icon="['fab', 'twitter']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                        <font-awesome-icon :icon="['fab', 'twitter']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                                     </a>
                                     <a target="_blank" href="#" class="social">
-                                        <font-awesome-icon :icon="['fab', 'whatsapp']" :style="{ color: 'rgb(248, 74, 26)' }"/>
+                                        <font-awesome-icon :icon="['fab', 'whatsapp']" :style="{ color: 'rgb(248, 74, 26)', fontSize:'14px' }"/>
                                     </a>
                                 </div>
                             </div>
@@ -76,6 +76,7 @@ export default {
     font-weight: bold;
     border-top: 1px solid black;
     margin-bottom: 1px;
+    font-size: 14px;
 }
 .contact-details {
     display: flex;
@@ -89,6 +90,7 @@ export default {
     justify-content: center; 
     align-items:center;
     margin-left: 10px;
+    font-size: 13.7px;
 }
 .detail {
     display: flex;
